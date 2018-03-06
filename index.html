@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>League Launcher</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Kaushan+Script|Permanent+Marker|Poiret+One|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans" rel="stylesheet">
+</head>
+<body>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="login.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button id="but" type="submit">Login</button>
+    </div>
+  </form>
+</div>
+<div class="section" id="sec1">
+<!--DARK OVERLAY-->
+<div class="overlay"></div>
+<!--/DARK OVERLAY-->
+
+<!--WRAP-->
+<div id="wrap">
+	<!--CONTAINER-->
+	<div class="contain">
+        <div id="navbar">
+            <a href="#" onclick="document.getElementById('id01').style.display='block'">
+                <div id="logoName" style="color:white">League Launcher</div>
+                <div id="login" style="color:white;">Login</div>
+            </a>
+        </div>      
+        <center>
+            <div id="logo">League Launcher</div>
+            <div id="subLogo">Make it happen</div>
+            <div id="block1"></div>
+        </center>
+	</div>
+	<!--/CONTAINER-->
+</div>
+</div>
+<div class="section" id="sec2">
+    <div class="about">ABOUT</div>
+    <div id="block2"></div>
+    <p class="rot leftp">Aldus Corporation, which later merged with Adobe Systems, helped bring Lorem Ipsum into the information age with its 1985 flagship software Aldus PageMaker. The program came bundled with Lorem Ipsum dummy text to help with laying out page content, and other word processors like Microsoft Word followed suit</p>
+    <div id="block3"></div>
+    <p class="rot rightp">Aldus Corporation, which later merged with Adobe Systems, helped bring Lorem Ipsum into the information age with its 1985 flagship software Aldus PageMaker. The program came bundled with Lorem Ipsum dummy text to help with laying out page content, and other word processors like Microsoft Word followed suit</p>
+</div>
+<div class="section" id="sec3">
+    <div class="split left">
+        <center style="margin-top:40%;font-family: 'Poiret One', cursive;">
+            <h2><b>Register for a tournament?</b></h2>
+            <p>Choose the one that suits you...</p>
+            <br/><br/>
+            <button class="button">Let's Search</button>
+        </center>
+    </div>
+
+    <div class="split right">
+        <center style="margin-top:40%;font-family: 'Poiret One', cursive;">
+            <h2><b>Want to start a new tournament?</b></h2>
+            <p>Tell us more about your tournament...</p>
+            <br/><br/>
+            <button class="button">Let's Begin</button>
+        </center>
+    </div>
+</div>
+</body>
+</html>

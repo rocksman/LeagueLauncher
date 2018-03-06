@@ -13,6 +13,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#sec1{
+    overflow: hidden;
+}
 .split {
     height: 100%;
     width: 50%;
@@ -278,6 +281,10 @@ span.psw {
 }
 
 @media only screen and (max-width: 1000px) {
+    html,body{
+        overflow-x:hidden;
+        overflow: scroll;
+    }
     #logo{
         font-size:60px; 
         margin-top: 50%;
